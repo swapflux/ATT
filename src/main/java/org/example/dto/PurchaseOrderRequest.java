@@ -1,29 +1,27 @@
 package org.example.dto;
 
-import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
 import org.example.validation.ValidTotalAmount;
 
-import java.math.BigDecimal;
-import java.util.List;
-
-@ValidTotalAmount
 public class PurchaseOrderRequest {
 
     @NotBlank(message = "Purchase order number cannot be blank")
     private String purchaseOrderNumber;
 
-    @NotNull(message = "Items list cannot be null")
-    @Size(min = 1, message = "At least one item is required")
-    @Valid
-    private List<Item> items;
+    @NotBlank(message = "Product code cannot be blank")
+    private String productCode;
+
+    @NotNull(message = "Quantity is required")
+    private Integer quantity;
+
+    @NotNull(message = "Price is required")
+    private Double price;
 
     @NotNull(message = "Total amount is required")
-    private BigDecimal totalAmount;
+    private Double totalAmount;
 
-    // ----------- GETTERS & SETTERS -----------
+    // -------- Getters & Setters --------
 
     public String getPurchaseOrderNumber() {
         return purchaseOrderNumber;
@@ -33,19 +31,35 @@ public class PurchaseOrderRequest {
         this.purchaseOrderNumber = purchaseOrderNumber;
     }
 
-    public List<Item> getItems() {
-        return items;
+    public String getProductCode() {
+        return productCode;
     }
 
-    public void setItems(List<Item> items) {
-        this.items = items;
+    public void setProductCode(String productCode) {
+        this.productCode = productCode;
     }
 
-    public BigDecimal getTotalAmount() {
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public Double getTotalAmount() {
         return totalAmount;
     }
 
-    public void setTotalAmount(BigDecimal totalAmount) {
+    public void setTotalAmount(Double totalAmount) {
         this.totalAmount = totalAmount;
     }
 }

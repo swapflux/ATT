@@ -1,0 +1,6 @@
+PurchaseOrderNumber: PO1003
+ProductCode: ROUTER-9000
+Quantity: 2
+Price: 100.0
+TotalAmount: 200.0
+ProcessedTime: 2026-03-02T23:59:11.790202

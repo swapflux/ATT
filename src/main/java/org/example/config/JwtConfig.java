@@ -11,7 +11,7 @@ import javax.crypto.spec.SecretKeySpec;
 @Configuration
 public class JwtConfig {
 
-    private static final String SECRET = "swapnil-secret-key-123456";
+    private static final String SECRET = "swapnil-secret-key-project-1234567890";
 
     @Bean
     public JwtDecoder jwtDecoder() {

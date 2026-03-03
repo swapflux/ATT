@@ -37,7 +37,7 @@ public class PurchaseOrderService {
 
         repository.save(metadata);
 
-        String fileContent = transformer.transform(request);
+        String fileContent = transformer.transformToFlatFile(request);
 
         try {
             Files.writeString(

@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91077677-a794-4ef3-881c-214484662e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/AsyncConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/service/PurchaseOrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCALING.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/JwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/JwtConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/PurchaseOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/PurchaseOrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/PurchaseOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/PurchaseOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/transformer/FlatFileTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/transformer/FlatFileTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/validation/TotalAmountValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/validation/TotalAmountValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cleanup.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +129,7 @@
       <updated>1772303045680</updated>
       <workItem from="1772303052571" duration="11808000" />
       <workItem from="1772319643185" duration="1844000" />
-      <workItem from="1772475692310" duration="20024000" />
+      <workItem from="1772475692310" duration="21512000" />
     </task>
     <servers />
   </component>

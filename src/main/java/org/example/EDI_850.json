@@ -1,0 +1,16 @@
+{
+  "purchaseOrderNumber": "PO12345",
+  "buyer": {
+    "name": "AT&T Corp",
+    "duns": "123456789"
+  },
+  "items": [
+    {
+      "lineNumber": 1,
+      "productCode": "ROUTER-9000",
+      "quantity": 10,
+      "price": 250.00
+    }
+  ],
+  "totalAmount": 2500.00
+}
